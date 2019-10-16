@@ -64,6 +64,15 @@ nav ul {
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.photos {
+    display: grid;
+    grid-template-columns:120px 120px;
+    grid-column-gap:1px;
+    grid-template-rows:120px 120px;
+    grid-row-gap:1px;
+}
+    
+
 
 
     

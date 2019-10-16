@@ -15,29 +15,34 @@ img {
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
+    display: grid;
 }
 
 .grid {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    
+        
 }
 
 nav {
     background-color: #000;
     padding: 0.5em;
+
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+       }
 
 nav a {
     color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
+    
 }
 
 .photos {
@@ -48,4 +53,8 @@ nav a {
 
 .feature {
     width: 200px;
+}
+nav ul {
+    display:flex;
+    justify-content:space-between;
 }
